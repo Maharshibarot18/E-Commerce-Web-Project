@@ -1,0 +1,26 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import "./Sidebar.css"
+import add_product from '../../assets/Product_Cart.svg'
+import Product_list_icon from '../../assets/Product_list_icon.svg'
+
+const Sidebar = () => {
+  return (
+    <div  className='sidebar'>
+      <Link to = {'/addProduct'} style={{textDecoration: "none"}}>
+        <div className="sidebar-item">
+          <img src={add_product} alt="" />
+          <p>Add Product</p>
+        </div>
+      </Link>
+      <Link to = {'/listproduct'} style={{textDecoration: "none"}}>
+        <div className="sidebar-item">
+          <img src={Product_list_icon} alt="" />
+          <p>Product List</p>
+        </div>
+      </Link>
+    </div>
+  )
+}
+
+export default Sidebar

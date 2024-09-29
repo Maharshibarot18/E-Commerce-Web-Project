@@ -1,0 +1,31 @@
+.paypal-button-container {
+    display: flex;               /* Use flexbox for centering */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically (optional) */
+    margin-top: 20px;           /* Space from the cart items */
+    width: 100%;                 /* Take the full width of the parent */
+    max-width: 600px;           /* Optional: set a maximum width for the button container */
+    padding: 10px;              /* Optional: add some padding */
+}
+
+.paypal-button {
+    width: 100%;                 /* Make the PayPal button take the full width of its container */
+    padding: 15px;              /* Increase padding for a bigger button */
+    font-size: 16px;            /* Increase font size if needed */
+    border-radius: 5px;         /* Optional: round the corners */
+    background-color: #0070ba;  /* Optional: change button color */
+    color: white;               /* Optional: change text color */
+    cursor: pointer;            /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Optional: add a hover effect */
+}
+
+.paypal-button:hover {
+    background-color: #005ea6; /* Optional: darker shade on hover */
+}
+
+.error-message {
+    color: #ff5a5a;               /* Red color for error message */
+    margin-bottom: 15px;         /* Space below the message */
+    font-weight: bold;           /* Make the text bold */
+    text-align: center;          /* Center the text */
+}
