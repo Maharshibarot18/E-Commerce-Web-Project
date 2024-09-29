@@ -1,0 +1,120 @@
+.register__card__container {
+    height: 700px;
+    width: 420px;
+    margin: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Improved shadow effect */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    overflow: hidden; /* Ensure content fits within rounded corners */
+}
+
+.register__card {
+    height: 95%;
+    width: 90%;
+    margin: auto;
+    padding: 20px; /* Added padding for better spacing */
+    box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+
+.register__header {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px; /* Spacing below header */
+}
+
+.register__header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0; /* Remove default margin */
+}
+
+.register__inputs {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Ensure inputs stack vertically */
+}
+
+.reg__input__container {
+    height: 19%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Space between input fields */
+}
+
+.input__label {
+    height: 40%;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.register__input {
+    width: 100%;
+    height: 40px; /* Set a fixed height for input fields */
+    padding: 8px; /* Add padding inside input fields */
+    border: 1px solid #ccc; /* Border for better visibility */
+    border-radius: 4px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Ensure padding is included in total width/height */
+}
+
+.register__button__container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Spacing above the button */
+}
+
+.register__button {
+    height: 50%;
+    width: 100%;
+    font-size: 1.1rem;
+    background-color: #FFE26E;
+    border-color: #FFE26E;
+    border-style: solid; /* Changed from dashed to solid for a cleaner look */
+    border-width: 2px; /* Border width for better visibility */
+    border-radius: 4px; /* Rounded corners for button */
+    font-weight: bold;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.register__button:hover {
+    background-color: #FFD700; /* Darker shade on hover */
+    border-color: #FFD700;
+}
+
+.register__other__actions {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Spacing above the actions */
+}
+
+.register__login__account {
+    font-size: 1rem;
+}
+
+.register__login__account a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.register__login__account a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.register__success__message {
+    color: green;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+}
